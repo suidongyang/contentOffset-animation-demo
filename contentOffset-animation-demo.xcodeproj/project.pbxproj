@@ -13,6 +13,8 @@
 		901858601D9BB0BE00132C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9018585E1D9BB0BE00132C73 /* Main.storyboard */; };
 		901858621D9BB0BE00132C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901858611D9BB0BE00132C73 /* Assets.xcassets */; };
 		901858651D9BB0BE00132C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901858631D9BB0BE00132C73 /* LaunchScreen.storyboard */; };
+		901858701D9BB14B00132C73 /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9018586E1D9BB14B00132C73 /* UIHelper.m */; };
+		901858741D9BB53900132C73 /* 0500285fi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 901858731D9BB53900132C73 /* 0500285fi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		901858611D9BB0BE00132C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901858641D9BB0BE00132C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901858661D9BB0BE00132C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9018586D1D9BB14B00132C73 /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		9018586E1D9BB14B00132C73 /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		901858731D9BB53900132C73 /* 0500285fi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0500285fi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 		901858541D9BB0BE00132C73 /* contentOffset-animation-demo */ = {
 			isa = PBXGroup;
 			children = (
+				901858731D9BB53900132C73 /* 0500285fi.jpg */,
+				9018586D1D9BB14B00132C73 /* UIHelper.h */,
+				9018586E1D9BB14B00132C73 /* UIHelper.m */,
 				901858581D9BB0BE00132C73 /* AppDelegate.h */,
 				901858591D9BB0BE00132C73 /* AppDelegate.m */,
 				9018585B1D9BB0BE00132C73 /* ViewController.h */,
@@ -137,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901858741D9BB53900132C73 /* 0500285fi.jpg in Resources */,
 				901858651D9BB0BE00132C73 /* LaunchScreen.storyboard in Resources */,
 				901858621D9BB0BE00132C73 /* Assets.xcassets in Resources */,
 				901858601D9BB0BE00132C73 /* Main.storyboard in Resources */,
@@ -153,6 +162,7 @@
 				9018585D1D9BB0BE00132C73 /* ViewController.m in Sources */,
 				9018585A1D9BB0BE00132C73 /* AppDelegate.m in Sources */,
 				901858571D9BB0BE00132C73 /* main.m in Sources */,
+				901858701D9BB14B00132C73 /* UIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +309,7 @@
 				9018586B1D9BB0BE00132C73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
